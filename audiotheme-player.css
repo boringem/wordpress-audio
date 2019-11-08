@@ -1,0 +1,63 @@
+/* Player background */
+.mytheme-mejs-container.mejs-container,
+.mytheme-mejs-container .mejs-controls,
+.mytheme-mejs-container .mejs-embed,
+.mytheme-mejs-container .mejs-embed body {
+  background-color: #efefef;
+}
+
+/* Player controls */
+.mytheme-mejs-container .mejs-button > button {
+  background-image: url(images/mejs-controls-dark.svg);
+}
+
+.mytheme-mejs-container .mejs-time {
+  color: #888888;
+}
+
+/* Progress and audio bars */
+
+/* Progress and audio bar background */
+.mytheme-mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mytheme-mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+  background-color: #fff;
+}
+
+/* Track progress bar background (amount of track fully loaded)
+  We prefer to style these with the main accent color of our theme */
+.mytheme-mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background-color: rgba(219, 78, 136, 0.075);
+}
+
+/* Current track progress and active audio volume level bar */
+.mytheme-mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mytheme-mejs-container .mejs-controls .mejs-time-rail .mejs-time-current {
+  background: #db4e88;
+}
+
+/* Reduce height of the progress and audio bars */
+.mytheme-mejs-container .mejs-time-buffering,
+.mytheme-mejs-container .mejs-time-current,
+.mytheme-mejs-container .mejs-time-float,
+.mytheme-mejs-container .mejs-time-float-corner,
+.mytheme-mejs-container .mejs-time-float-current,
+.mytheme-mejs-container .mejs-time-hovered,
+.mytheme-mejs-container .mejs-time-loaded,
+.mytheme-mejs-container .mejs-time-marker,
+.mytheme-mejs-container .mejs-time-total,
+.mytheme-mejs-container .mejs-horizontal-volume-total,
+.mytheme-mejs-container .mejs-time-handle-content {
+  height: 3px;
+}
+
+.mytheme-mejs-container .mejs-time-handle-content {
+  top: -6px;
+}
+
+.mytheme-mejs-container .mejs-time-total {
+  margin-top: 8px;
+}
+
+.mytheme-mejs-container .mejs-horizontal-volume-total {
+  top: 19px;
+}
